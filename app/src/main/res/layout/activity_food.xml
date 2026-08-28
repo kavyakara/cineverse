@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🍿 Food and Beverages"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add something delicious to your movie!"
+            android:textColor="#BBBBBB"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- POPCORN -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🍿 Classic Popcorn"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹150"
+            android:textColor="#FFD54F"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/btnMinusPopcorn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="-"/>
+
+            <TextView
+                android:id="@+id/txtPopcornQty"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/btnPlusPopcorn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="+"/>
+
+        </LinearLayout>
+
+        <!-- COKE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🥤 Coke"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹80"
+            android:textColor="#FFD54F"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMinusCoke"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="-"/>
+
+            <TextView
+                android:id="@+id/txtCokeQty"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/btnPlusCoke"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="+"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtFoodTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Total : ₹0"
+            android:textColor="#00FF99"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="35dp"/>
+
+        <Button
+            android:id="@+id/btnFoodContinue"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Continue to Payment"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_red"/>
+
+    </LinearLayout>
+
+</ScrollView>

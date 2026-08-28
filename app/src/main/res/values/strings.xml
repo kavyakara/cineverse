@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">cineverse</string>
+
+    <string name="movie_icon">🎬</string>
+    <string name="bookmyshow">BookMyShow</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register_text">Don\'t have an account? Register</string>
+
+</resources>
